@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<bodY>
+`<body>
     <header>
         <h1 id="mainh">Mohammad Ebnabbasi</h1>
     </header>
@@ -128,3 +128,5 @@ footer{
 }
 
 
+</body>
+</html>
