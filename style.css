@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url(images/Valerie&Vincent.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto;
+}
+@font-face{
+    font-family: myFont;
+    src:url(fonts/futuristic.ttf);
+}
+#mainh{
+    background-color: hsl(60, 100%, 50%);
+    font-family: myFont, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    padding: 25px; 
+    text-align: center;
+}
+main{
+    margin: 20px;
+}
+h2{
+    font-family: myFont, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+aside{
+    width:20%;
+    float: left;
+    padding: 10px;
+}
+Section{
+    width:40%;
+    float: left;
+    padding: 10px;
+}
+Article{
+    width: 40%;
+    float: right;
+    padding: 10px;
+}
+footer{
+    background-color: hsl(60, 100%, 50%);
+    font-family: myFont, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    clear: both;
+    padding: 25px; 
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 16%);
+    font-family: myFont, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hwb(0 7% 93%);
+}
+.navbar li{
+    float: left;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
